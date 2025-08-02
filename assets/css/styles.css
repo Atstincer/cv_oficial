@@ -1,0 +1,88 @@
+:root {
+  --dark: #00172a;
+  --grey: #f6f6f6;
+  --light: #ffffff;
+
+  --body: #d49555;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  background-color: var(--grey);
+}
+
+section {
+  margin-top: 2rem;
+}
+
+.bg-light {
+  background-color: var(--light) !important;
+}
+.bg-dark {
+  background-color: var(--dark) !important;
+}
+.bg-grey {
+  background-color: var(--grey) !important;
+}
+.bg-body {
+  background-color: var(--body) !important;
+}
+
+.foto {
+  max-width: 40%;
+}
+
+.icon {
+  max-width: 0.7rem;
+  padding-right: 0.3rem;
+}
+
+.col-resumen {
+  font-size: 0.8rem;
+  padding: 0.8rem;
+  width: 35%;
+}
+
+main {
+  padding: 0.8rem;
+  padding-top: 4rem;
+  width: 65%;
+}
+
+.card {
+  margin-top: 1rem;
+}
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 800px;
+  }
+  .col-resumen {
+    padding: 2rem;
+  }
+  .foto {
+    max-width: 80%;
+  }
+  main {
+    padding: 2rem;
+    padding-top: 4rem;
+  }
+}
+
+/*@media (min-width: 576px) {
+  .foto {
+    max-width: 70px;
+  }
+}
+
+@media (min-width: 992px) {
+  .foto {
+    max-width: 200px;
+  }
+}*/
