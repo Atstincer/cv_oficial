@@ -59,6 +59,20 @@ main {
   font-weight: 700 !important;
 }
 
+@media (max-width: 576px) {
+  .col-resumen {
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 4rem;
+    background-image: linear-gradient(to bottom, var(--dark), var(--body));
+  }
+  main {
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 4rem;
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 800px;
