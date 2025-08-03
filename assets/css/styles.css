@@ -60,6 +60,9 @@ main {
 }
 
 @media (max-width: 576px) {
+  .section-name2 {
+    display: none;
+  }
   .foto {
     max-width: 60%;
   }
@@ -73,10 +76,14 @@ main {
     width: 100%;
     padding-left: 1.5rem;
     padding-right: 2rem;
+    padding-top: 1px;
   }
 }
 
 @media (min-width: 576px) {
+  .section-name1 {
+    display: none;
+  }
   .col-resumen {
     padding: 2rem;
   }
@@ -86,6 +93,9 @@ main {
   main {
     padding: 2rem;
     padding-top: 4rem;
+  }
+  .container {
+    max-width: 100%;
   }
 }
 
