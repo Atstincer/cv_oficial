@@ -105,6 +105,17 @@ main {
   }
 }
 
+/* Resizable image in modal */
+.resizable-image {
+  touch-action: none;
+  user-select: none;
+}
+
+.resizable-image:hover {
+  opacity: 0.9;
+  border: 2px dashed #d49555;
+}
+
 /*@media (min-width: 576px) {
   .foto {
     max-width: 70px;

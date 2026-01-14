@@ -53,7 +53,7 @@
             <li>
               <ion-icon name="pin"></ion-icon>
               <small
-                >Calle Numancia 10a 1ro izquierda Los Corrales de Buelna,
+                >Calle Peñas Arriba No.12 2do A, Los Corrales de Buelna,
                 Cantabria 39400, España</small
               >
             </li>
@@ -138,14 +138,14 @@
                 <small class="text-muted">jun 2025 - actualidad</small>
               </div>
               <div class="card-body">
-                <p class="mb-0">Elaboración de pedidos de pollo:</p>
+                <p class="mb-0">Elaboración de pedidos de pollo, conejo, gallina, pavo, etc:</p>
                 <ul class="list-unstyled">
                   <li>Despiece</li>
                   <li>Deshuesado</li>
                   <li>Fileteado</li>
                   <li>
                     Manipulación de maquinaria para hacer picado, estofado en
-                    trozos
+                    trozos, embase al vacío, embase en termo sellado
                   </li>
                 </ul>
               </div>
@@ -181,16 +181,155 @@
           </div>
         </section>
         <section>
-          <p class="section-title lead mb-0">Aficiones</p>
-          <ul class="list-unstyled">
-            <li class="badge text-dark">Programación de software</li>
-            <li class="badge text-dark">Estudiar idiomas</li>
-            <li class="badge text-dark">Ver películas</li>
-            <li class="badge text-dark">Escuchar música</li>
-            <li class="badge text-dark">Viajar</li>
-          </ul>
+          <p class="section-title lead mb-0">Cursos</p>
+          <div class="card bg-body border-0">
+            <div class="row">
+              <div class="col-3">
+                <div>
+                  <img
+                    src="assets/curso_higiene.jpeg"
+                    class="img-fluid img-thumbnail"
+                    style="max-width: 75px; cursor: pointer"
+                    alt="Diploma thumbnail"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalDiplamaHigiene"
+                  />
+                </div>
+              </div>
+              <div class="col-8">
+                <h6 class="font-weight-bold">
+                  Higiene y manipulacion de alimentos
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-body border-0">
+            <div class="row">
+              <div class="col-3">
+                <div>
+                  <img
+                    src="assets/certificate_fullstack_7.png"
+                    class="img-fluid img-thumbnail"
+                    style="max-width: 75px; cursor: pointer"
+                    alt="Certificado thumbnail"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalCertificadoFullstack"
+                  />
+                </div>
+              </div>
+              <div class="col-8">
+                <h6 class="font-weight-bold my-0">
+                  Full Stack Open, desarrollo de aplicaciones Web. Universidad Helsinki
+                </h6>
+                <p><a class="link-opacity-75-hover" href="https://fullstackopen.com/en/">ir al curso</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-body border-0">
+            <div class="row">
+              <div class="col-3">
+                <div>
+                  <img
+                    src="assets/certificate_graphql.png"
+                    class="img-fluid img-thumbnail"
+                    style="max-width: 75px; cursor: pointer"
+                    alt="GraphQL thumbnail"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalCertificadoGraphQL"
+                  />
+                </div>
+              </div>
+              <div class="col-8">
+                <h6 class="font-weight-bold my-0">
+                  GraphQL, desarrollo de aplicaciones Web. Universidad Helsinki
+                </h6>
+                <p><a class="link-opacity-75-hover" href="https://fullstackopen.com/en/part8">ir al curso</a></p>
+              </div>
+            </div>
+          </div>
         </section>
       </main>
+    </div>
+
+    <!-- Modal Higiene y Manipulacion de alimentos -->
+    <div
+      class="modal fade"
+      id="modalDiplamaHigiene"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+        <!--div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div-->
+          <div class="modal-body d-flex justify-content-center align-items-center" style="min-height: 500px;">
+            <img
+              src="assets/curso_higiene.jpeg"
+              class="img-fluid resizable-image"
+              alt="Diploma"
+              style="max-width: 100%; max-height: 90vh; cursor: resize; user-select: none;"
+            />
+          </div>
+          <!--div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div-->
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Fullstack -->
+    <div
+      class="modal fade"
+      id="modalCertificadoFullstack"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+          <div class="modal-body d-flex justify-content-center">
+            <img
+              src="assets/certificate_fullstack_7.png"
+              class="img-fluid"
+              alt="Certificado"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal GraphQL -->
+    <div
+      class="modal fade"
+      id="modalCertificadoGraphQL"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+          <div class="modal-body d-flex justify-content-center">
+            <img
+              src="assets/certificate_graphql.png"
+              class="img-fluid"
+              alt="Certificado GraphQL"
+            />
+          </div>
+        </div>
+      </div>
     </div>
 
     <script
@@ -206,5 +345,53 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+
+    <script>
+      // Make resizable-image draggable for zooming with scroll
+      document.querySelectorAll('.resizable-image').forEach(img => {
+        let isResizing = false;
+        let startX, startY, startWidth, startHeight;
+
+        img.addEventListener('mousedown', (e) => {
+          isResizing = true;
+          startX = e.clientX;
+          startY = e.clientY;
+          startWidth = img.offsetWidth;
+          startHeight = img.offsetHeight;
+          img.style.cursor = 'nwse-resize';
+        });
+
+        document.addEventListener('mousemove', (e) => {
+          if (!isResizing) return;
+          const deltaX = e.clientX - startX;
+          const deltaY = e.clientY - startY;
+          const maxDelta = Math.max(deltaX, deltaY);
+          
+          let newWidth = startWidth + maxDelta;
+          newWidth = Math.max(100, Math.min(newWidth, window.innerWidth * 0.9));
+          img.style.width = newWidth + 'px';
+          img.style.height = 'auto';
+        });
+
+        document.addEventListener('mouseup', () => {
+          isResizing = false;
+          img.style.cursor = 'resize';
+        });
+
+        // Mouse wheel zoom alternative
+        img.addEventListener('wheel', (e) => {
+          e.preventDefault();
+          const delta = e.deltaY > 0 ? -0.1 : 0.1;
+          const newWidth = img.offsetWidth * (1 + delta);
+          const maxWidth = window.innerWidth * 0.9;
+          const minWidth = 100;
+          
+          if (newWidth >= minWidth && newWidth <= maxWidth) {
+            img.style.width = newWidth + 'px';
+            img.style.height = 'auto';
+          }
+        }, { passive: false });
+      });
+    </script>
   </body>
 </html>
