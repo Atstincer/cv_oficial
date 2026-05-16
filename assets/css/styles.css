@@ -56,12 +56,12 @@ main {
 }
 
 .card-header {
-  background-color: rgba(235, 233, 229, 0.556);
+  background-color: rgba(244, 243, 241, 0.315);
   border: 0;
 }
 
 .card-body {
-  background-color: rgba(243, 242, 240, 0.766);
+  background-color: rgba(243, 242, 240, 0.259);
 }
 
 .has-link:hover {
@@ -69,8 +69,9 @@ main {
   cursor: pointer;
 }
 
-.curso-name {
+.card-title {
   font-weight: 700;
+  margin-bottom: 1px;
 }
 
 .font-weight-bold {
