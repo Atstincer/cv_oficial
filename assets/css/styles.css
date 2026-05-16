@@ -18,6 +18,12 @@ section {
   margin-bottom: 1rem;
 }
 
+.general-info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .foto {
   max-width: 40%;
 }
@@ -40,9 +46,9 @@ main {
 }
 
 /* background-color: #f2efec75; */
-.container {
+/*.container {
   background-color: #f3efec4f;
-}
+}*/
 
 .card {
   margin-top: 1rem;
