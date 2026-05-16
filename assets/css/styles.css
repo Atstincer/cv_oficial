@@ -1,8 +1,8 @@
 :root {
   --grey: #f6f6f6;
   --light: #ffffff;
+  --box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.15);
 }
-/* --box-shadow: 2px 2px 0.5px -1px rgba(0, 0, 0, 0.15); */
 
 body {
   font-family: 'Spartan', sans-serif;
@@ -17,14 +17,6 @@ section {
 .section-title {
   margin-bottom: 1rem;
 }
-
-/*.bg-light {
-  background-color: var(--light) !important;
-}
-
-.bg-grey {
-  background-color: var(--grey) !important;
-}*/
 
 .foto {
   max-width: 40%;
@@ -57,36 +49,22 @@ main {
   border: 0;
 }
 
-/*
-.card:hover {
-  box-shadow: 2px 2px 0.5px -1px rgba(0, 0, 0, 0.15);
-}*/
-
-/* box-shadow: 2px 2px 4px -1px rgba(0, 0, 0, 0.15); */
-.card-cursos-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.card-header {
+  background-color: rgba(235, 233, 229, 0.556);
   border: 0;
-}
-
-.curso-info {
-  padding-left: 1rem;
 }
 
 .card-body {
   background-color: rgba(243, 242, 240, 0.766);
 }
 
-.card-header {
-  background-color: rgba(235, 233, 229, 0.556);
+.has-link:hover {
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
 }
 
-.img-thumbnail {
-  max-width: 75px;
-  cursor: pointer;
-  padding: 0;
-  border: 0;
+.curso-name {
+  font-weight: 700;
 }
 
 .font-weight-bold {
@@ -110,6 +88,9 @@ main {
     padding-left: 1.5rem;
     padding-right: 2rem;
     padding-top: 1px;
+  }
+  .has-link {
+    box-shadow: var(--box-shadow);
   }
 }
 
