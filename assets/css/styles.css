@@ -1,34 +1,30 @@
 :root {
-  --dark: #00172a;
   --grey: #f6f6f6;
   --light: #ffffff;
-
-  --body: #d49555;
 }
+/* --box-shadow: 2px 2px 0.5px -1px rgba(0, 0, 0, 0.15); */
 
 body {
-  font-family: "Spartan", sans-serif;
+  font-family: 'Spartan', sans-serif;
   font-size: 1rem;
   font-weight: 300;
-  background-color: var(--grey);
 }
 
 section {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
-.bg-light {
+.section-title {
+  margin-bottom: 1rem;
+}
+
+/*.bg-light {
   background-color: var(--light) !important;
 }
-.bg-dark {
-  background-color: var(--dark) !important;
-}
+
 .bg-grey {
   background-color: var(--grey) !important;
-}
-.bg-body {
-  background-color: var(--body) !important;
-}
+}*/
 
 .foto {
   max-width: 40%;
@@ -51,8 +47,46 @@ main {
   width: 65%;
 }
 
+/* background-color: #f2efec75; */
+.container {
+  background-color: #f3efec4f;
+}
+
 .card {
   margin-top: 1rem;
+  border: 0;
+}
+
+/*
+.card:hover {
+  box-shadow: 2px 2px 0.5px -1px rgba(0, 0, 0, 0.15);
+}*/
+
+/* box-shadow: 2px 2px 4px -1px rgba(0, 0, 0, 0.15); */
+.card-cursos-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 0;
+}
+
+.curso-info {
+  padding-left: 1rem;
+}
+
+.card-body {
+  background-color: rgba(243, 242, 240, 0.766);
+}
+
+.card-header {
+  background-color: rgba(235, 233, 229, 0.556);
+}
+
+.img-thumbnail {
+  max-width: 75px;
+  cursor: pointer;
+  padding: 0;
+  border: 0;
 }
 
 .font-weight-bold {
@@ -70,7 +104,6 @@ main {
     width: 100%;
     padding-left: 1.5rem;
     padding-right: 2rem;
-    background-image: linear-gradient(to bottom, var(--dark), var(--body));
   }
   main {
     width: 100%;
@@ -101,7 +134,7 @@ main {
 
 @media (min-width: 768px) {
   .container {
-    max-width: 800px;
+    max-width: 1000px;
   }
 }
 
@@ -115,15 +148,3 @@ main {
   opacity: 0.9;
   border: 2px dashed #d49555;
 }
-
-/*@media (min-width: 576px) {
-  .foto {
-    max-width: 70px;
-  }
-}
-
-@media (min-width: 992px) {
-  .foto {
-    max-width: 200px;
-  }
-}*/
