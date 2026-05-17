@@ -25,10 +25,7 @@
         <div class="d-flex my-5 justify-content-center">
           <img src="assets/foto.jpg" class="img-fluid foto rounded-circle" />
         </div>
-        <div class="section-name1">
-          <h1 class="font-weight-bold mb-0">Alex Torres Stincer</h1>
-          <small>Agente de viajes</small>
-        </div>
+        <name-and-profesion class="section-name1"></name-and-profesion>
         <section class="general-info-section">
           <h6 class="border-bottom mb-2 font-weight-bold">
             Información personal
@@ -84,10 +81,7 @@
         </section>
       </div>
       <main class="text-dark">
-        <div class="section-name2">
-          <h1 class="font-weight-bold mb-0">Alex Torres Stincer</h1>
-          <small>Agente de viajes</small>
-        </div>
+        <name-and-profesion class="section-name2"></name-and-profesion>
         <section>
           <h2 class="section-title">Experiencia laboral</h2>
           <div class="card bg-body border-0">
@@ -518,6 +512,16 @@
           })
         })
       })
+
+      class NameAndProfesion extends HTMLElement {
+        connectedCallback() {
+          this.innerHTML = `<div>
+          <h1 class="font-weight-bold mb-0">Alex Torres Stincer</h1>
+          <small>Agente de viajes</small>
+        </div>`
+        }
+      }
+      customElements.define('name-and-profesion', NameAndProfesion)
     </script>
   </body>
 </html>
