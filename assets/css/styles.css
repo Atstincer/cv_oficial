@@ -11,7 +11,7 @@ body {
 }
 
 section {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .section-title {
@@ -56,12 +56,12 @@ main {
 }
 
 .card-header {
-  background-color: rgba(244, 243, 241, 0.315);
+  background-color: rgba(203, 201, 196, 0.315);
   border: 0;
 }
 
 .card-body {
-  background-color: rgba(243, 242, 240, 0.259);
+  background-color: rgba(224, 223, 220, 0.327);
 }
 
 .has-link:hover {
